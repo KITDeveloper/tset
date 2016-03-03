@@ -1,13 +1,12 @@
 //
 //  AppDelegate.swift
-//  memobotter
+//  TabTest1
 //
-//  Created by Suita Shigeo on 2016/02/25.
-//  Copyright © 2016年 SG. All rights reserved.
+//  Created by tatsuya hirano on 2016/03/01.
+//  Copyright © 2016年 tatsuya hirano. All rights reserved.
 //
 
 import UIKit
-import Parse
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,9 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        
-        //Parseで取得した[Application ID]と[Client Key]を指定
-        Parse.setApplicationId("nfZPDvHdwr3YpeqKek8Fc6g0maJ9bZ7ve7mtcMRr", clientKey: "ndtQVc45kQf2cH7zeDwfBnqukF40hdjEJNjQpv2b")
         return true
     }
 
